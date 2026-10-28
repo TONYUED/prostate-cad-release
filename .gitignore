@@ -16,7 +16,9 @@ tf_env/
 
 # ---- 数据与模型（仓库只放代码，数据按许可单独获取）----
 data/*
-!data/gold_standards.json          # 仅含统计数字与 case_id，不含任何图像，便于核对
+# 注意：Git 不支持行尾注释，例外规则必须单独成行
+# 仅含统计数字与 case_id，不含任何图像，便于核对
+!data/gold_standards.json
 outputs/
 results/
 runs/

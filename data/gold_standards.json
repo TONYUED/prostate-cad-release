@@ -1,0 +1,4043 @@
+{
+  "_metadata": {
+    "generated_at": "2026-10-28T11:09:24",
+    "generator": "scripts/build_gold_standards.py",
+    "source": "SICAPv2 pixel-level masks (*_classimg_nonconvex.png)",
+    "derivation": "primary = 面积最大的 GG3/4/5；secondary = 第二大模式，占比低于阈值时取 primary；ISUP 按 2014 ISUP 共识映射。",
+    "min_secondary_ratio": 0.05,
+    "value_1_kept": false,
+    "caveat": "由像素级掩码推导，不等同于病理医师出具的病例级报告；发表前建议与 SICAPv2 官方标注表核对。",
+    "n_cores": 244,
+    "n_benign": 22,
+    "n_cancer": 222,
+    "isup_grade_distribution": {
+      "ISUP 1": 43,
+      "ISUP 2": 11,
+      "ISUP 3": 24,
+      "ISUP 4": 119,
+      "ISUP 5": 25
+    },
+    "primary_pattern_distribution": {
+      "GG3": 56,
+      "GG4": 151,
+      "GG5": 15
+    }
+  },
+  "slide001_core003": {
+    "areas_px": {
+      "background": 12035979,
+      "GG4": 14178421
+    },
+    "cancer_area_px": 14178421,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core003_classimg_nonconvex.png"
+  },
+  "slide001_core004": {
+    "areas_px": {
+      "background": 11883793,
+      "GG4": 14330607
+    },
+    "cancer_area_px": 14330607,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core004_classimg_nonconvex.png"
+  },
+  "slide001_core005": {
+    "areas_px": {
+      "background": 10854188,
+      "GG4": 15360212
+    },
+    "cancer_area_px": 15360212,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core005_classimg_nonconvex.png"
+  },
+  "slide001_core006": {
+    "areas_px": {
+      "background": 12047034,
+      "GG4": 16788806
+    },
+    "cancer_area_px": 16788806,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core006_classimg_nonconvex.png"
+  },
+  "slide001_core007": {
+    "areas_px": {
+      "background": 10862234,
+      "GG4": 17973606
+    },
+    "cancer_area_px": 17973606,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core007_classimg_nonconvex.png"
+  },
+  "slide001_core008": {
+    "areas_px": {
+      "background": 10376304,
+      "GG4": 15623028,
+      "GG5": 215068
+    },
+    "cancer_area_px": 15838096,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 0.986421,
+      "GG5": 0.013579
+    },
+    "mask_file": "slide001_core008_classimg_nonconvex.png"
+  },
+  "slide001_core009": {
+    "areas_px": {
+      "background": 14351394,
+      "GG4": 11863006
+    },
+    "cancer_area_px": 11863006,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core009_classimg_nonconvex.png"
+  },
+  "slide001_core010": {
+    "areas_px": {
+      "background": 13164602,
+      "GG5": 15671238
+    },
+    "cancer_area_px": 15671238,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 5,
+    "gleason_score": 10,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG5": 1.0
+    },
+    "mask_file": "slide001_core010_classimg_nonconvex.png"
+  },
+  "slide001_core011": {
+    "areas_px": {
+      "background": 23224019,
+      "GG4": 2728237
+    },
+    "cancer_area_px": 2728237,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core011_classimg_nonconvex.png"
+  },
+  "slide001_core012": {
+    "areas_px": {
+      "background": 24188867,
+      "GG4": 1763389
+    },
+    "cancer_area_px": 1763389,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core012_classimg_nonconvex.png"
+  },
+  "slide001_core014": {
+    "areas_px": {
+      "background": 12014070,
+      "GG4": 14200330
+    },
+    "cancer_area_px": 14200330,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core014_classimg_nonconvex.png"
+  },
+  "slide001_core018": {
+    "areas_px": {
+      "background": 21020916,
+      "GG3": 5193484
+    },
+    "cancer_area_px": 5193484,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide001_core018_classimg_nonconvex.png"
+  },
+  "slide001_core030": {
+    "areas_px": {
+      "background": 12084042,
+      "GG4": 16751798
+    },
+    "cancer_area_px": 16751798,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core030_classimg_nonconvex.png"
+  },
+  "slide001_core037": {
+    "areas_px": {
+      "background": 14826931,
+      "GG4": 11387469
+    },
+    "cancer_area_px": 11387469,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core037_classimg_nonconvex.png"
+  },
+  "slide001_core038": {
+    "areas_px": {
+      "background": 11185389,
+      "GG4": 12858382,
+      "NC": 2170629
+    },
+    "cancer_area_px": 12858382,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core038_classimg_nonconvex.png"
+  },
+  "slide001_core039": {
+    "areas_px": {
+      "background": 13285811,
+      "GG4": 12928589
+    },
+    "cancer_area_px": 12928589,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core039_classimg_nonconvex.png"
+  },
+  "slide001_core040": {
+    "areas_px": {
+      "background": 10631078,
+      "NC": 15583322
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide001_core040_classimg_nonconvex.png"
+  },
+  "slide001_core041": {
+    "areas_px": {
+      "background": 13607559,
+      "GG3": 6864912,
+      "GG4": 8363369
+    },
+    "cancer_area_px": 15228281,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.4508,
+      "GG4": 0.5492
+    },
+    "mask_file": "slide001_core041_classimg_nonconvex.png"
+  },
+  "slide001_core045": {
+    "areas_px": {
+      "background": 8673790,
+      "GG4": 14919170
+    },
+    "cancer_area_px": 14919170,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core045_classimg_nonconvex.png"
+  },
+  "slide001_core046": {
+    "areas_px": {
+      "background": 10631747,
+      "GG4": 12961213
+    },
+    "cancer_area_px": 12961213,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core046_classimg_nonconvex.png"
+  },
+  "slide001_core049": {
+    "areas_px": {
+      "background": 19910100,
+      "GG3": 6042156
+    },
+    "cancer_area_px": 6042156,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide001_core049_classimg_nonconvex.png"
+  },
+  "slide001_core055": {
+    "areas_px": {
+      "background": 11762406,
+      "GG3": 3659573,
+      "GG4": 10792421
+    },
+    "cancer_area_px": 14451994,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.253223,
+      "GG4": 0.746777
+    },
+    "mask_file": "slide001_core055_classimg_nonconvex.png"
+  },
+  "slide001_core059": {
+    "areas_px": {
+      "background": 13886486,
+      "GG3": 4158642,
+      "GG4": 5547832
+    },
+    "cancer_area_px": 9706474,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.42844,
+      "GG4": 0.57156
+    },
+    "mask_file": "slide001_core059_classimg_nonconvex.png"
+  },
+  "slide001_core065": {
+    "areas_px": {
+      "background": 11834015,
+      "GG3": 7263828
+    },
+    "cancer_area_px": 7263828,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide001_core065_classimg_nonconvex.png"
+  },
+  "slide001_core066": {
+    "areas_px": {
+      "background": 16603386,
+      "GG4": 9611014
+    },
+    "cancer_area_px": 9611014,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core066_classimg_nonconvex.png"
+  },
+  "slide001_core067": {
+    "areas_px": {
+      "background": 13208901,
+      "GG3": 2442534,
+      "GG4": 10562965
+    },
+    "cancer_area_px": 13005499,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.187808,
+      "GG4": 0.812192
+    },
+    "mask_file": "slide001_core067_classimg_nonconvex.png"
+  },
+  "slide001_core069": {
+    "areas_px": {
+      "background": 11377840,
+      "GG3": 14836560
+    },
+    "cancer_area_px": 14836560,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide001_core069_classimg_nonconvex.png"
+  },
+  "slide001_core070": {
+    "areas_px": {
+      "background": 10902726,
+      "GG3": 15311674
+    },
+    "cancer_area_px": 15311674,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide001_core070_classimg_nonconvex.png"
+  },
+  "slide001_core077": {
+    "areas_px": {
+      "background": 13393161,
+      "GG3": 10934514,
+      "GG4": 4508165
+    },
+    "cancer_area_px": 15442679,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.708071,
+      "GG4": 0.291929
+    },
+    "mask_file": "slide001_core077_classimg_nonconvex.png"
+  },
+  "slide001_core079": {
+    "areas_px": {
+      "background": 13861074,
+      "GG3": 7726585,
+      "GG4": 4626741
+    },
+    "cancer_area_px": 12353326,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.625466,
+      "GG4": 0.374534
+    },
+    "mask_file": "slide001_core079_classimg_nonconvex.png"
+  },
+  "slide001_core083": {
+    "areas_px": {
+      "background": 11866447,
+      "GG4": 14347953
+    },
+    "cancer_area_px": 14347953,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core083_classimg_nonconvex.png"
+  },
+  "slide001_core086": {
+    "areas_px": {
+      "background": 8975157,
+      "GG3": 4627593,
+      "GG4": 9990210
+    },
+    "cancer_area_px": 14617803,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.316572,
+      "GG4": 0.683428
+    },
+    "mask_file": "slide001_core086_classimg_nonconvex.png"
+  },
+  "slide001_core095": {
+    "areas_px": {
+      "background": 7157360,
+      "GG4": 14076304
+    },
+    "cancer_area_px": 14076304,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core095_classimg_nonconvex.png"
+  },
+  "slide001_core098": {
+    "areas_px": {
+      "background": 15569894,
+      "GG3": 9594091,
+      "GG4": 1050415
+    },
+    "cancer_area_px": 10644506,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.901319,
+      "GG4": 0.098681
+    },
+    "mask_file": "slide001_core098_classimg_nonconvex.png"
+  },
+  "slide001_core109": {
+    "areas_px": {
+      "background": 11920883,
+      "GG4": 14293517
+    },
+    "cancer_area_px": 14293517,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core109_classimg_nonconvex.png"
+  },
+  "slide001_core110": {
+    "areas_px": {
+      "background": 12658884,
+      "GG4": 13555516
+    },
+    "cancer_area_px": 13555516,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core110_classimg_nonconvex.png"
+  },
+  "slide001_core111": {
+    "areas_px": {
+      "background": 16167336,
+      "GG3": 1511350,
+      "GG4": 8535714
+    },
+    "cancer_area_px": 10047064,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.150427,
+      "GG4": 0.849573
+    },
+    "mask_file": "slide001_core111_classimg_nonconvex.png"
+  },
+  "slide001_core112": {
+    "areas_px": {
+      "background": 12074208,
+      "GG4": 9159456
+    },
+    "cancer_area_px": 9159456,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core112_classimg_nonconvex.png"
+  },
+  "slide001_core134": {
+    "areas_px": {
+      "background": 12372124,
+      "GG4": 13842276
+    },
+    "cancer_area_px": 13842276,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core134_classimg_nonconvex.png"
+  },
+  "slide001_core145": {
+    "areas_px": {
+      "background": 10679279,
+      "GG4": 7113185,
+      "GG5": 5800496
+    },
+    "cancer_area_px": 12913681,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 5,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.550826,
+      "GG5": 0.449174
+    },
+    "mask_file": "slide001_core145_classimg_nonconvex.png"
+  },
+  "slide001_core146": {
+    "areas_px": {
+      "background": 11882934,
+      "GG4": 14331466
+    },
+    "cancer_area_px": 14331466,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core146_classimg_nonconvex.png"
+  },
+  "slide001_core156": {
+    "areas_px": {
+      "background": 12511211,
+      "GG3": 3875400,
+      "GG4": 9827789
+    },
+    "cancer_area_px": 13703189,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.28281,
+      "GG4": 0.71719
+    },
+    "mask_file": "slide001_core156_classimg_nonconvex.png"
+  },
+  "slide001_core159": {
+    "areas_px": {
+      "background": 11606809,
+      "GG3": 1205968,
+      "GG4": 13401623
+    },
+    "cancer_area_px": 14607591,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.082558,
+      "GG4": 0.917442
+    },
+    "mask_file": "slide001_core159_classimg_nonconvex.png"
+  },
+  "slide001_core160": {
+    "areas_px": {
+      "background": 11671863,
+      "GG4": 14542537
+    },
+    "cancer_area_px": 14542537,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide001_core160_classimg_nonconvex.png"
+  },
+  "slide002_core002": {
+    "areas_px": {
+      "background": 8644219,
+      "GG4": 14948741
+    },
+    "cancer_area_px": 14948741,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core002_classimg_nonconvex.png"
+  },
+  "slide002_core009": {
+    "areas_px": {
+      "background": 13605479,
+      "GG4": 7969005,
+      "GG5": 1157810,
+      "NC": 860666
+    },
+    "cancer_area_px": 9126815,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 5,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.873142,
+      "GG5": 0.126858
+    },
+    "mask_file": "slide002_core009_classimg_nonconvex.png"
+  },
+  "slide002_core010": {
+    "areas_px": {
+      "background": 18140593,
+      "GG4": 5457599,
+      "GG5": 2616208
+    },
+    "cancer_area_px": 8073807,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 5,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.675964,
+      "GG5": 0.324036
+    },
+    "mask_file": "slide002_core010_classimg_nonconvex.png"
+  },
+  "slide002_core012": {
+    "areas_px": {
+      "background": 10030695,
+      "NC": 16183705
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide002_core012_classimg_nonconvex.png"
+  },
+  "slide002_core017": {
+    "areas_px": {
+      "background": 13360939,
+      "GG4": 12853461
+    },
+    "cancer_area_px": 12853461,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core017_classimg_nonconvex.png"
+  },
+  "slide002_core025": {
+    "areas_px": {
+      "background": 10795338,
+      "GG4": 15419062
+    },
+    "cancer_area_px": 15419062,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core025_classimg_nonconvex.png"
+  },
+  "slide002_core026": {
+    "areas_px": {
+      "background": 13079512,
+      "GG4": 13134888
+    },
+    "cancer_area_px": 13134888,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core026_classimg_nonconvex.png"
+  },
+  "slide002_core030": {
+    "areas_px": {
+      "background": 8568512,
+      "NC": 15024448
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide002_core030_classimg_nonconvex.png"
+  },
+  "slide002_core033": {
+    "areas_px": {
+      "background": 10776450,
+      "GG3": 2490219,
+      "GG4": 9890951,
+      "NC": 3056780
+    },
+    "cancer_area_px": 12381170,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.20113,
+      "GG4": 0.79887
+    },
+    "mask_file": "slide002_core033_classimg_nonconvex.png"
+  },
+  "slide002_core039": {
+    "areas_px": {
+      "background": 12027958,
+      "GG3": 2084569,
+      "GG4": 9480433
+    },
+    "cancer_area_px": 11565002,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.180248,
+      "GG4": 0.819752
+    },
+    "mask_file": "slide002_core039_classimg_nonconvex.png"
+  },
+  "slide002_core041": {
+    "areas_px": {
+      "background": 11965277,
+      "GG4": 14249123
+    },
+    "cancer_area_px": 14249123,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core041_classimg_nonconvex.png"
+  },
+  "slide002_core042": {
+    "areas_px": {
+      "background": 13339333,
+      "GG3": 1516588,
+      "GG4": 2329649,
+      "GG5": 9028830
+    },
+    "cancer_area_px": 12875067,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 4,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG3": 0.117793,
+      "GG4": 0.180943,
+      "GG5": 0.701265
+    },
+    "mask_file": "slide002_core042_classimg_nonconvex.png"
+  },
+  "slide002_core050": {
+    "areas_px": {
+      "background": 19464113,
+      "GG4": 4128847
+    },
+    "cancer_area_px": 4128847,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core050_classimg_nonconvex.png"
+  },
+  "slide002_core051": {
+    "areas_px": {
+      "background": 14188885,
+      "GG4": 9404075
+    },
+    "cancer_area_px": 9404075,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core051_classimg_nonconvex.png"
+  },
+  "slide002_core052": {
+    "areas_px": {
+      "background": 9432438,
+      "GG4": 14160522
+    },
+    "cancer_area_px": 14160522,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core052_classimg_nonconvex.png"
+  },
+  "slide002_core055": {
+    "areas_px": {
+      "background": 12569542,
+      "GG4": 13644858
+    },
+    "cancer_area_px": 13644858,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core055_classimg_nonconvex.png"
+  },
+  "slide002_core056": {
+    "areas_px": {
+      "background": 9440121,
+      "GG3": 14152839
+    },
+    "cancer_area_px": 14152839,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide002_core056_classimg_nonconvex.png"
+  },
+  "slide002_core062": {
+    "areas_px": {
+      "background": 20419710,
+      "GG3": 5192957,
+      "GG4": 601733
+    },
+    "cancer_area_px": 5794690,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.896158,
+      "GG4": 0.103842
+    },
+    "mask_file": "slide002_core062_classimg_nonconvex.png"
+  },
+  "slide002_core071": {
+    "areas_px": {
+      "background": 9502139,
+      "GG4": 14090821
+    },
+    "cancer_area_px": 14090821,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core071_classimg_nonconvex.png"
+  },
+  "slide002_core072": {
+    "areas_px": {
+      "background": 10633986,
+      "GG4": 12958974
+    },
+    "cancer_area_px": 12958974,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core072_classimg_nonconvex.png"
+  },
+  "slide002_core073": {
+    "areas_px": {
+      "background": 10593772,
+      "GG5": 15620628
+    },
+    "cancer_area_px": 15620628,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 5,
+    "gleason_score": 10,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG5": 1.0
+    },
+    "mask_file": "slide002_core073_classimg_nonconvex.png"
+  },
+  "slide002_core074": {
+    "areas_px": {
+      "background": 10417812,
+      "GG5": 15796588
+    },
+    "cancer_area_px": 15796588,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 5,
+    "gleason_score": 10,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG5": 1.0
+    },
+    "mask_file": "slide002_core074_classimg_nonconvex.png"
+  },
+  "slide002_core079": {
+    "areas_px": {
+      "background": 13960216,
+      "GG4": 14875624
+    },
+    "cancer_area_px": 14875624,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core079_classimg_nonconvex.png"
+  },
+  "slide002_core080": {
+    "areas_px": {
+      "background": 11287934,
+      "GG4": 14926466
+    },
+    "cancer_area_px": 14926466,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core080_classimg_nonconvex.png"
+  },
+  "slide002_core081": {
+    "areas_px": {
+      "background": 13262690,
+      "GG4": 12951710
+    },
+    "cancer_area_px": 12951710,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core081_classimg_nonconvex.png"
+  },
+  "slide002_core082": {
+    "areas_px": {
+      "background": 9603317,
+      "GG4": 13989643
+    },
+    "cancer_area_px": 13989643,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core082_classimg_nonconvex.png"
+  },
+  "slide002_core084": {
+    "areas_px": {
+      "background": 15292194,
+      "GG3": 10922206
+    },
+    "cancer_area_px": 10922206,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide002_core084_classimg_nonconvex.png"
+  },
+  "slide002_core096": {
+    "areas_px": {
+      "background": 10738092,
+      "GG3": 14702457
+    },
+    "cancer_area_px": 14702457,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide002_core096_classimg_nonconvex.png"
+  },
+  "slide002_core099": {
+    "areas_px": {
+      "background": 18279084,
+      "GG3": 7935316
+    },
+    "cancer_area_px": 7935316,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide002_core099_classimg_nonconvex.png"
+  },
+  "slide002_core116": {
+    "areas_px": {
+      "background": 14124033,
+      "GG4": 12090367
+    },
+    "cancer_area_px": 12090367,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core116_classimg_nonconvex.png"
+  },
+  "slide002_core123": {
+    "areas_px": {
+      "background": 12299676,
+      "GG3": 13914724
+    },
+    "cancer_area_px": 13914724,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide002_core123_classimg_nonconvex.png"
+  },
+  "slide002_core124": {
+    "areas_px": {
+      "background": 8369183,
+      "GG3": 15223777
+    },
+    "cancer_area_px": 15223777,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide002_core124_classimg_nonconvex.png"
+  },
+  "slide002_core126": {
+    "areas_px": {
+      "background": 20645057,
+      "GG3": 3266914,
+      "GG4": 2059315,
+      "GG5": 243114
+    },
+    "cancer_area_px": 5569343,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.586589,
+      "GG4": 0.369759,
+      "GG5": 0.043652
+    },
+    "mask_file": "slide002_core126_classimg_nonconvex.png"
+  },
+  "slide002_core139": {
+    "areas_px": {
+      "background": 11566583,
+      "GG4": 14647817
+    },
+    "cancer_area_px": 14647817,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core139_classimg_nonconvex.png"
+  },
+  "slide002_core140": {
+    "areas_px": {
+      "background": 11197536,
+      "GG5": 15016864
+    },
+    "cancer_area_px": 15016864,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 5,
+    "gleason_score": 10,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG5": 1.0
+    },
+    "mask_file": "slide002_core140_classimg_nonconvex.png"
+  },
+  "slide002_core143": {
+    "areas_px": {
+      "background": 12769007,
+      "GG4": 3184392,
+      "GG5": 4803429,
+      "NC": 2836132
+    },
+    "cancer_area_px": 7987821,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 4,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.398656,
+      "GG5": 0.601344
+    },
+    "mask_file": "slide002_core143_classimg_nonconvex.png"
+  },
+  "slide002_core144": {
+    "areas_px": {
+      "background": 19772686,
+      "GG5": 6441714
+    },
+    "cancer_area_px": 6441714,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 5,
+    "gleason_score": 10,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG5": 1.0
+    },
+    "mask_file": "slide002_core144_classimg_nonconvex.png"
+  },
+  "slide002_core145": {
+    "areas_px": {
+      "background": 20703534,
+      "GG3": 5248722
+    },
+    "cancer_area_px": 5248722,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide002_core145_classimg_nonconvex.png"
+  },
+  "slide002_core150": {
+    "areas_px": {
+      "background": 11108955,
+      "GG4": 15105445
+    },
+    "cancer_area_px": 15105445,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide002_core150_classimg_nonconvex.png"
+  },
+  "slide003_core004": {
+    "areas_px": {
+      "background": 16873420,
+      "GG4": 6719540
+    },
+    "cancer_area_px": 6719540,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core004_classimg_nonconvex.png"
+  },
+  "slide003_core005": {
+    "areas_px": {
+      "background": 11563029,
+      "GG4": 14651371
+    },
+    "cancer_area_px": 14651371,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core005_classimg_nonconvex.png"
+  },
+  "slide003_core010": {
+    "areas_px": {
+      "background": 11951712,
+      "GG4": 11641248
+    },
+    "cancer_area_px": 11641248,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core010_classimg_nonconvex.png"
+  },
+  "slide003_core023": {
+    "areas_px": {
+      "background": 13641332,
+      "GG3": 3547315,
+      "GG4": 9025753
+    },
+    "cancer_area_px": 12573068,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.282136,
+      "GG4": 0.717864
+    },
+    "mask_file": "slide003_core023_classimg_nonconvex.png"
+  },
+  "slide003_core031": {
+    "areas_px": {
+      "background": 10635601,
+      "GG3": 580850,
+      "GG4": 12376509
+    },
+    "cancer_area_px": 12957359,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG3": 0.044828,
+      "GG4": 0.955172
+    },
+    "mask_file": "slide003_core031_classimg_nonconvex.png"
+  },
+  "slide003_core037": {
+    "areas_px": {
+      "background": 12445235,
+      "GG4": 13769165
+    },
+    "cancer_area_px": 13769165,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core037_classimg_nonconvex.png"
+  },
+  "slide003_core038": {
+    "areas_px": {
+      "background": 15194810,
+      "GG3": 8398150
+    },
+    "cancer_area_px": 8398150,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide003_core038_classimg_nonconvex.png"
+  },
+  "slide003_core044": {
+    "areas_px": {
+      "background": 13852889,
+      "GG3": 12361511
+    },
+    "cancer_area_px": 12361511,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide003_core044_classimg_nonconvex.png"
+  },
+  "slide003_core045": {
+    "areas_px": {
+      "background": 20928395,
+      "GG4": 1291314,
+      "GG5": 1373251
+    },
+    "cancer_area_px": 2664565,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 4,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.484625,
+      "GG5": 0.515375
+    },
+    "mask_file": "slide003_core045_classimg_nonconvex.png"
+  },
+  "slide003_core046": {
+    "areas_px": {
+      "background": 15482260,
+      "GG3": 1546870,
+      "GG4": 9185270
+    },
+    "cancer_area_px": 10732140,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.144134,
+      "GG4": 0.855866
+    },
+    "mask_file": "slide003_core046_classimg_nonconvex.png"
+  },
+  "slide003_core054": {
+    "areas_px": {
+      "background": 22526111,
+      "GG3": 3688289
+    },
+    "cancer_area_px": 3688289,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide003_core054_classimg_nonconvex.png"
+  },
+  "slide003_core055": {
+    "areas_px": {
+      "background": 18192640,
+      "GG3": 2333847,
+      "GG4": 707177
+    },
+    "cancer_area_px": 3041024,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.767454,
+      "GG4": 0.232546
+    },
+    "mask_file": "slide003_core055_classimg_nonconvex.png"
+  },
+  "slide003_core056": {
+    "areas_px": {
+      "background": 13495884,
+      "GG4": 12718516
+    },
+    "cancer_area_px": 12718516,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core056_classimg_nonconvex.png"
+  },
+  "slide003_core065": {
+    "areas_px": {
+      "background": 13669031,
+      "GG4": 12545369
+    },
+    "cancer_area_px": 12545369,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core065_classimg_nonconvex.png"
+  },
+  "slide003_core067": {
+    "areas_px": {
+      "background": 8678687,
+      "GG4": 1659648,
+      "NC": 13254625
+    },
+    "cancer_area_px": 1659648,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core067_classimg_nonconvex.png"
+  },
+  "slide003_core068": {
+    "areas_px": {
+      "background": 18038442,
+      "GG5": 5554518
+    },
+    "cancer_area_px": 5554518,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 5,
+    "gleason_score": 10,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG5": 1.0
+    },
+    "mask_file": "slide003_core068_classimg_nonconvex.png"
+  },
+  "slide003_core069": {
+    "areas_px": {
+      "background": 11789709,
+      "GG3": 14424691
+    },
+    "cancer_area_px": 14424691,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide003_core069_classimg_nonconvex.png"
+  },
+  "slide003_core075": {
+    "areas_px": {
+      "background": 16060878,
+      "GG3": 7532082
+    },
+    "cancer_area_px": 7532082,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide003_core075_classimg_nonconvex.png"
+  },
+  "slide003_core077": {
+    "areas_px": {
+      "background": 13033363,
+      "GG3": 13181037
+    },
+    "cancer_area_px": 13181037,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide003_core077_classimg_nonconvex.png"
+  },
+  "slide003_core080": {
+    "areas_px": {
+      "background": 18856591,
+      "GG4": 7357809
+    },
+    "cancer_area_px": 7357809,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core080_classimg_nonconvex.png"
+  },
+  "slide003_core083": {
+    "areas_px": {
+      "background": 12921737,
+      "GG3": 13292663
+    },
+    "cancer_area_px": 13292663,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide003_core083_classimg_nonconvex.png"
+  },
+  "slide003_core092": {
+    "areas_px": {
+      "background": 16553811,
+      "GG4": 6936426,
+      "GG5": 102723
+    },
+    "cancer_area_px": 7039149,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 0.985407,
+      "GG5": 0.014593
+    },
+    "mask_file": "slide003_core092_classimg_nonconvex.png"
+  },
+  "slide003_core095": {
+    "areas_px": {
+      "background": 20182988,
+      "GG4": 5769268
+    },
+    "cancer_area_px": 5769268,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core095_classimg_nonconvex.png"
+  },
+  "slide003_core096": {
+    "areas_px": {
+      "background": 15459028,
+      "GG4": 1694882,
+      "GG5": 1542479,
+      "NC": 7518011
+    },
+    "cancer_area_px": 3237361,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 5,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.523538,
+      "GG5": 0.476462
+    },
+    "mask_file": "slide003_core096_classimg_nonconvex.png"
+  },
+  "slide003_core097": {
+    "areas_px": {
+      "background": 8816099,
+      "GG4": 12417565
+    },
+    "cancer_area_px": 12417565,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core097_classimg_nonconvex.png"
+  },
+  "slide003_core098": {
+    "areas_px": {
+      "background": 8917125,
+      "GG4": 12316539
+    },
+    "cancer_area_px": 12316539,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core098_classimg_nonconvex.png"
+  },
+  "slide003_core107": {
+    "areas_px": {
+      "background": 14533539,
+      "GG4": 11680861
+    },
+    "cancer_area_px": 11680861,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core107_classimg_nonconvex.png"
+  },
+  "slide003_core108": {
+    "areas_px": {
+      "background": 8649664,
+      "GG3": 10814604,
+      "GG4": 1769396
+    },
+    "cancer_area_px": 12584000,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.859393,
+      "GG4": 0.140607
+    },
+    "mask_file": "slide003_core108_classimg_nonconvex.png"
+  },
+  "slide003_core114": {
+    "areas_px": {
+      "background": 16325837,
+      "GG4": 9888563
+    },
+    "cancer_area_px": 9888563,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core114_classimg_nonconvex.png"
+  },
+  "slide003_core117": {
+    "areas_px": {
+      "background": 12042704,
+      "GG3": 587422,
+      "GG4": 13584274
+    },
+    "cancer_area_px": 14171696,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG3": 0.04145,
+      "GG4": 0.95855
+    },
+    "mask_file": "slide003_core117_classimg_nonconvex.png"
+  },
+  "slide003_core122": {
+    "areas_px": {
+      "background": 16781840,
+      "GG4": 9432560
+    },
+    "cancer_area_px": 9432560,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core122_classimg_nonconvex.png"
+  },
+  "slide003_core125": {
+    "areas_px": {
+      "background": 11984325,
+      "GG3": 6280346,
+      "GG4": 7949729
+    },
+    "cancer_area_px": 14230075,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.441343,
+      "GG4": 0.558657
+    },
+    "mask_file": "slide003_core125_classimg_nonconvex.png"
+  },
+  "slide003_core129": {
+    "areas_px": {
+      "background": 8729845,
+      "NC": 14863115
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide003_core129_classimg_nonconvex.png"
+  },
+  "slide003_core133": {
+    "areas_px": {
+      "background": 11037700,
+      "GG4": 12060697,
+      "GG5": 494563
+    },
+    "cancer_area_px": 12555260,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 0.960609,
+      "GG5": 0.039391
+    },
+    "mask_file": "slide003_core133_classimg_nonconvex.png"
+  },
+  "slide003_core134": {
+    "areas_px": {
+      "background": 9778508
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide003_core134_classimg_nonconvex.png"
+  },
+  "slide003_core135": {
+    "areas_px": {
+      "background": 25022488,
+      "GG4": 1191912
+    },
+    "cancer_area_px": 1191912,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide003_core135_classimg_nonconvex.png"
+  },
+  "slide003_core136": {
+    "areas_px": {
+      "background": 20773555,
+      "GG3": 343470,
+      "NC": 2475935
+    },
+    "cancer_area_px": 343470,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide003_core136_classimg_nonconvex.png"
+  },
+  "slide005_core009": {
+    "areas_px": {
+      "background": 12394185,
+      "NC": 11198775
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide005_core009_classimg_nonconvex.png"
+  },
+  "slide005_core012": {
+    "areas_px": {
+      "background": 11589987,
+      "GG3": 10843645,
+      "GG4": 1159328
+    },
+    "cancer_area_px": 12002973,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.903413,
+      "GG4": 0.096587
+    },
+    "mask_file": "slide005_core012_classimg_nonconvex.png"
+  },
+  "slide005_core017": {
+    "areas_px": {
+      "background": 14731178,
+      "GG4": 11483222
+    },
+    "cancer_area_px": 11483222,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core017_classimg_nonconvex.png"
+  },
+  "slide005_core018": {
+    "areas_px": {
+      "background": 14107393,
+      "GG4": 12107007
+    },
+    "cancer_area_px": 12107007,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core018_classimg_nonconvex.png"
+  },
+  "slide005_core021": {
+    "areas_px": {
+      "background": 11767978,
+      "GG3": 13729026,
+      "GG4": 717396
+    },
+    "cancer_area_px": 14446422,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 0.950341,
+      "GG4": 0.049659
+    },
+    "mask_file": "slide005_core021_classimg_nonconvex.png"
+  },
+  "slide005_core029": {
+    "areas_px": {
+      "background": 20378707,
+      "GG3": 5835693
+    },
+    "cancer_area_px": 5835693,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide005_core029_classimg_nonconvex.png"
+  },
+  "slide005_core033": {
+    "areas_px": {
+      "background": 11944253,
+      "GG3": 13798214,
+      "GG4": 471933
+    },
+    "cancer_area_px": 14270147,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 0.966929,
+      "GG4": 0.033071
+    },
+    "mask_file": "slide005_core033_classimg_nonconvex.png"
+  },
+  "slide005_core034": {
+    "areas_px": {
+      "background": 23717953,
+      "GG4": 2496447
+    },
+    "cancer_area_px": 2496447,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core034_classimg_nonconvex.png"
+  },
+  "slide005_core035": {
+    "areas_px": {
+      "background": 11001295,
+      "GG3": 15213105
+    },
+    "cancer_area_px": 15213105,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide005_core035_classimg_nonconvex.png"
+  },
+  "slide005_core038": {
+    "areas_px": {
+      "background": 11132545,
+      "GG4": 15081855
+    },
+    "cancer_area_px": 15081855,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core038_classimg_nonconvex.png"
+  },
+  "slide005_core041": {
+    "areas_px": {
+      "background": 19085201,
+      "GG3": 7129199
+    },
+    "cancer_area_px": 7129199,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide005_core041_classimg_nonconvex.png"
+  },
+  "slide005_core045": {
+    "areas_px": {
+      "background": 16558510,
+      "GG5": 7034450
+    },
+    "cancer_area_px": 7034450,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 5,
+    "gleason_score": 10,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG5": 1.0
+    },
+    "mask_file": "slide005_core045_classimg_nonconvex.png"
+  },
+  "slide005_core046": {
+    "areas_px": {
+      "background": 21890265,
+      "GG4": 9829159
+    },
+    "cancer_area_px": 9829159,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core046_classimg_nonconvex.png"
+  },
+  "slide005_core049": {
+    "areas_px": {
+      "background": 17049303,
+      "GG4": 9165097
+    },
+    "cancer_area_px": 9165097,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core049_classimg_nonconvex.png"
+  },
+  "slide005_core051": {
+    "areas_px": {
+      "background": 16366255,
+      "GG3": 9112600,
+      "GG5": 735545
+    },
+    "cancer_area_px": 9848145,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 5,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG3": 0.925311,
+      "GG5": 0.074689
+    },
+    "mask_file": "slide005_core051_classimg_nonconvex.png"
+  },
+  "slide005_core057": {
+    "areas_px": {
+      "background": 10553501,
+      "GG3": 2337062,
+      "GG4": 13323837
+    },
+    "cancer_area_px": 15660899,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.149229,
+      "GG4": 0.850771
+    },
+    "mask_file": "slide005_core057_classimg_nonconvex.png"
+  },
+  "slide005_core058": {
+    "areas_px": {
+      "background": 11324070,
+      "GG4": 14890330
+    },
+    "cancer_area_px": 14890330,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core058_classimg_nonconvex.png"
+  },
+  "slide005_core063": {
+    "areas_px": {
+      "background": 10291724,
+      "GG4": 15922676
+    },
+    "cancer_area_px": 15922676,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core063_classimg_nonconvex.png"
+  },
+  "slide005_core064": {
+    "areas_px": {
+      "background": 19530017,
+      "GG3": 10605000,
+      "GG5": 1584407
+    },
+    "cancer_area_px": 12189407,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 5,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG3": 0.870018,
+      "GG5": 0.129982
+    },
+    "mask_file": "slide005_core064_classimg_nonconvex.png"
+  },
+  "slide005_core069": {
+    "areas_px": {
+      "background": 12059604,
+      "GG4": 16776236
+    },
+    "cancer_area_px": 16776236,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core069_classimg_nonconvex.png"
+  },
+  "slide005_core073": {
+    "areas_px": {
+      "background": 19626745,
+      "GG3": 1581656,
+      "GG4": 4151067,
+      "GG5": 854932
+    },
+    "cancer_area_px": 6587655,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.240094,
+      "GG4": 0.630128,
+      "GG5": 0.129778
+    },
+    "mask_file": "slide005_core073_classimg_nonconvex.png"
+  },
+  "slide005_core074": {
+    "areas_px": {
+      "background": 24471538,
+      "GG3": 1742862
+    },
+    "cancer_area_px": 1742862,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide005_core074_classimg_nonconvex.png"
+  },
+  "slide005_core087": {
+    "areas_px": {
+      "background": 11952653,
+      "GG4": 14261747
+    },
+    "cancer_area_px": 14261747,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core087_classimg_nonconvex.png"
+  },
+  "slide005_core088": {
+    "areas_px": {
+      "background": 12774831,
+      "GG4": 13439569
+    },
+    "cancer_area_px": 13439569,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core088_classimg_nonconvex.png"
+  },
+  "slide005_core090": {
+    "areas_px": {
+      "background": 10818649,
+      "NC": 15395751
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide005_core090_classimg_nonconvex.png"
+  },
+  "slide005_core091": {
+    "areas_px": {
+      "background": 14495343,
+      "GG4": 10296013,
+      "GG5": 1423044
+    },
+    "cancer_area_px": 11719057,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 5,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.87857,
+      "GG5": 0.12143
+    },
+    "mask_file": "slide005_core091_classimg_nonconvex.png"
+  },
+  "slide005_core092": {
+    "areas_px": {
+      "background": 23393671,
+      "GG5": 2820729
+    },
+    "cancer_area_px": 2820729,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 5,
+    "gleason_score": 10,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG5": 1.0
+    },
+    "mask_file": "slide005_core092_classimg_nonconvex.png"
+  },
+  "slide005_core094": {
+    "areas_px": {
+      "background": 12093311,
+      "GG3": 1945914,
+      "GG4": 9553735
+    },
+    "cancer_area_px": 11499649,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.169215,
+      "GG4": 0.830785
+    },
+    "mask_file": "slide005_core094_classimg_nonconvex.png"
+  },
+  "slide005_core097": {
+    "areas_px": {
+      "background": 13545898
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide005_core097_classimg_nonconvex.png"
+  },
+  "slide005_core101": {
+    "areas_px": {
+      "background": 9178603
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide005_core101_classimg_nonconvex.png"
+  },
+  "slide005_core102": {
+    "areas_px": {
+      "background": 10130345
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide005_core102_classimg_nonconvex.png"
+  },
+  "slide005_core104": {
+    "areas_px": {
+      "background": 5776043,
+      "NC": 15457621
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide005_core104_classimg_nonconvex.png"
+  },
+  "slide005_core111": {
+    "areas_px": {
+      "background": 14497404,
+      "GG4": 14338436
+    },
+    "cancer_area_px": 14338436,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core111_classimg_nonconvex.png"
+  },
+  "slide005_core112": {
+    "areas_px": {
+      "background": 8688247,
+      "GG4": 14904713
+    },
+    "cancer_area_px": 14904713,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core112_classimg_nonconvex.png"
+  },
+  "slide005_core117": {
+    "areas_px": {
+      "background": 8598490,
+      "GG4": 14994470
+    },
+    "cancer_area_px": 14994470,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core117_classimg_nonconvex.png"
+  },
+  "slide005_core118": {
+    "areas_px": {
+      "background": 8916693,
+      "GG4": 14676267
+    },
+    "cancer_area_px": 14676267,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core118_classimg_nonconvex.png"
+  },
+  "slide005_core122": {
+    "areas_px": {
+      "background": 13689555,
+      "GG3": 12524845
+    },
+    "cancer_area_px": 12524845,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide005_core122_classimg_nonconvex.png"
+  },
+  "slide005_core127": {
+    "areas_px": {
+      "background": 12729932,
+      "GG4": 16105908
+    },
+    "cancer_area_px": 16105908,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core127_classimg_nonconvex.png"
+  },
+  "slide005_core131": {
+    "areas_px": {
+      "background": 10912830,
+      "GG3": 15301570
+    },
+    "cancer_area_px": 15301570,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide005_core131_classimg_nonconvex.png"
+  },
+  "slide005_core132": {
+    "areas_px": {
+      "background": 11102995,
+      "GG4": 15111405
+    },
+    "cancer_area_px": 15111405,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core132_classimg_nonconvex.png"
+  },
+  "slide005_core133": {
+    "areas_px": {
+      "background": 9820509,
+      "GG3": 13772451
+    },
+    "cancer_area_px": 13772451,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide005_core133_classimg_nonconvex.png"
+  },
+  "slide005_core140": {
+    "areas_px": {
+      "background": 10370576,
+      "GG4": 13222384
+    },
+    "cancer_area_px": 13222384,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core140_classimg_nonconvex.png"
+  },
+  "slide005_core147": {
+    "areas_px": {
+      "background": 13280662,
+      "GG3": 6046169,
+      "GG4": 4266129
+    },
+    "cancer_area_px": 10312298,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.586307,
+      "GG4": 0.413693
+    },
+    "mask_file": "slide005_core147_classimg_nonconvex.png"
+  },
+  "slide005_core154": {
+    "areas_px": {
+      "background": 12425106,
+      "GG3": 13789294
+    },
+    "cancer_area_px": 13789294,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide005_core154_classimg_nonconvex.png"
+  },
+  "slide005_core159": {
+    "areas_px": {
+      "background": 18912551,
+      "GG4": 7301849
+    },
+    "cancer_area_px": 7301849,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide005_core159_classimg_nonconvex.png"
+  },
+  "slide006_core003": {
+    "areas_px": {
+      "background": 12498485,
+      "GG3": 1913051,
+      "GG4": 9181424
+    },
+    "cancer_area_px": 11094475,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.172433,
+      "GG4": 0.827567
+    },
+    "mask_file": "slide006_core003_classimg_nonconvex.png"
+  },
+  "slide006_core004": {
+    "areas_px": {
+      "background": 11821158,
+      "GG4": 14393242
+    },
+    "cancer_area_px": 14393242,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core004_classimg_nonconvex.png"
+  },
+  "slide006_core007": {
+    "areas_px": {
+      "background": 16267692,
+      "GG3": 2763190,
+      "GG4": 7183518
+    },
+    "cancer_area_px": 9946708,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.277799,
+      "GG4": 0.722201
+    },
+    "mask_file": "slide006_core007_classimg_nonconvex.png"
+  },
+  "slide006_core010": {
+    "areas_px": {
+      "background": 17301354,
+      "GG4": 6545456,
+      "GG5": 4989030
+    },
+    "cancer_area_px": 11534486,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 5,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.567468,
+      "GG5": 0.432532
+    },
+    "mask_file": "slide006_core010_classimg_nonconvex.png"
+  },
+  "slide006_core011": {
+    "areas_px": {
+      "background": 12095795,
+      "GG4": 12246255,
+      "NC": 1872350
+    },
+    "cancer_area_px": 12246255,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core011_classimg_nonconvex.png"
+  },
+  "slide006_core012": {
+    "areas_px": {
+      "background": 11518258,
+      "GG4": 14696142
+    },
+    "cancer_area_px": 14696142,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core012_classimg_nonconvex.png"
+  },
+  "slide006_core015": {
+    "areas_px": {
+      "background": 12386450,
+      "GG4": 13827950
+    },
+    "cancer_area_px": 13827950,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core015_classimg_nonconvex.png"
+  },
+  "slide006_core016": {
+    "areas_px": {
+      "background": 10020606,
+      "GG4": 7683732,
+      "NC": 5888622
+    },
+    "cancer_area_px": 7683732,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core016_classimg_nonconvex.png"
+  },
+  "slide006_core019": {
+    "areas_px": {
+      "background": 7437034,
+      "GG4": 13796630
+    },
+    "cancer_area_px": 13796630,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core019_classimg_nonconvex.png"
+  },
+  "slide006_core023": {
+    "areas_px": {
+      "background": 20026838,
+      "GG4": 6187562
+    },
+    "cancer_area_px": 6187562,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core023_classimg_nonconvex.png"
+  },
+  "slide006_core029": {
+    "areas_px": {
+      "background": 17485577,
+      "GG3": 998137
+    },
+    "cancer_area_px": 998137,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide006_core029_classimg_nonconvex.png"
+  },
+  "slide006_core044": {
+    "areas_px": {
+      "background": 9610211,
+      "GG4": 13982749
+    },
+    "cancer_area_px": 13982749,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core044_classimg_nonconvex.png"
+  },
+  "slide006_core046": {
+    "areas_px": {
+      "background": 11388165
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide006_core046_classimg_nonconvex.png"
+  },
+  "slide006_core047": {
+    "areas_px": {
+      "background": 9387775,
+      "GG3": 16826625
+    },
+    "cancer_area_px": 16826625,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide006_core047_classimg_nonconvex.png"
+  },
+  "slide006_core048": {
+    "areas_px": {
+      "background": 13047333,
+      "GG4": 13167067
+    },
+    "cancer_area_px": 13167067,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core048_classimg_nonconvex.png"
+  },
+  "slide006_core058": {
+    "areas_px": {
+      "background": 11754841,
+      "GG3": 10565368,
+      "GG4": 3632047
+    },
+    "cancer_area_px": 14197415,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.744175,
+      "GG4": 0.255825
+    },
+    "mask_file": "slide006_core058_classimg_nonconvex.png"
+  },
+  "slide006_core066": {
+    "areas_px": {
+      "background": 26560703,
+      "GG4": 2275137
+    },
+    "cancer_area_px": 2275137,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core066_classimg_nonconvex.png"
+  },
+  "slide006_core071": {
+    "areas_px": {
+      "background": 16120956,
+      "GG3": 7472004
+    },
+    "cancer_area_px": 7472004,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide006_core071_classimg_nonconvex.png"
+  },
+  "slide006_core077": {
+    "areas_px": {
+      "background": 10174486,
+      "GG4": 13418474
+    },
+    "cancer_area_px": 13418474,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core077_classimg_nonconvex.png"
+  },
+  "slide006_core078": {
+    "areas_px": {
+      "background": 11910589,
+      "GG4": 14303811
+    },
+    "cancer_area_px": 14303811,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core078_classimg_nonconvex.png"
+  },
+  "slide006_core082": {
+    "areas_px": {
+      "background": 15078107,
+      "GG3": 9782467,
+      "GG4": 3975266
+    },
+    "cancer_area_px": 13757733,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 4,
+    "gleason_score": 7,
+    "isup_grade": 2,
+    "pattern_ratios": {
+      "GG3": 0.711052,
+      "GG4": 0.288948
+    },
+    "mask_file": "slide006_core082_classimg_nonconvex.png"
+  },
+  "slide006_core083": {
+    "areas_px": {
+      "background": 9016643,
+      "GG4": 14576317
+    },
+    "cancer_area_px": 14576317,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core083_classimg_nonconvex.png"
+  },
+  "slide006_core084": {
+    "areas_px": {
+      "background": 11862381,
+      "GG3": 6745582,
+      "GG4": 7606437
+    },
+    "cancer_area_px": 14352019,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.470009,
+      "GG4": 0.529991
+    },
+    "mask_file": "slide006_core084_classimg_nonconvex.png"
+  },
+  "slide006_core086": {
+    "areas_px": {
+      "background": 6914847,
+      "GG4": 14318817
+    },
+    "cancer_area_px": 14318817,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core086_classimg_nonconvex.png"
+  },
+  "slide006_core087": {
+    "areas_px": {
+      "background": 8838072,
+      "GG3": 14754888
+    },
+    "cancer_area_px": 14754888,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide006_core087_classimg_nonconvex.png"
+  },
+  "slide006_core088": {
+    "areas_px": {
+      "background": 9610045,
+      "GG3": 13982915
+    },
+    "cancer_area_px": 13982915,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide006_core088_classimg_nonconvex.png"
+  },
+  "slide006_core089": {
+    "areas_px": {
+      "background": 11367666,
+      "GG4": 14846734
+    },
+    "cancer_area_px": 14846734,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core089_classimg_nonconvex.png"
+  },
+  "slide006_core090": {
+    "areas_px": {
+      "background": 9602915,
+      "GG4": 13990045
+    },
+    "cancer_area_px": 13990045,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core090_classimg_nonconvex.png"
+  },
+  "slide006_core093": {
+    "areas_px": {
+      "background": 11129753,
+      "GG4": 15084647
+    },
+    "cancer_area_px": 15084647,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core093_classimg_nonconvex.png"
+  },
+  "slide006_core098": {
+    "areas_px": {
+      "background": 10729307,
+      "GG4": 15485093
+    },
+    "cancer_area_px": 15485093,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core098_classimg_nonconvex.png"
+  },
+  "slide006_core100": {
+    "areas_px": {
+      "background": 8455976,
+      "GG4": 15136984
+    },
+    "cancer_area_px": 15136984,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core100_classimg_nonconvex.png"
+  },
+  "slide006_core101": {
+    "areas_px": {
+      "background": 11468427,
+      "GG4": 14745973
+    },
+    "cancer_area_px": 14745973,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core101_classimg_nonconvex.png"
+  },
+  "slide006_core102": {
+    "areas_px": {
+      "background": 16619896,
+      "GG4": 11873337,
+      "GG5": 342607
+    },
+    "cancer_area_px": 12215944,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 0.971954,
+      "GG5": 0.028046
+    },
+    "mask_file": "slide006_core102_classimg_nonconvex.png"
+  },
+  "slide006_core105": {
+    "areas_px": {
+      "background": 14181032,
+      "GG3": 12033368
+    },
+    "cancer_area_px": 12033368,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide006_core105_classimg_nonconvex.png"
+  },
+  "slide006_core108": {
+    "areas_px": {
+      "background": 18944043,
+      "GG3": 7270357
+    },
+    "cancer_area_px": 7270357,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide006_core108_classimg_nonconvex.png"
+  },
+  "slide006_core109": {
+    "areas_px": {
+      "background": 7126562,
+      "GG4": 14107102
+    },
+    "cancer_area_px": 14107102,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core109_classimg_nonconvex.png"
+  },
+  "slide006_core110": {
+    "areas_px": {
+      "background": 11691428,
+      "GG4": 8557735,
+      "GG5": 762551,
+      "NC": 2581246
+    },
+    "cancer_area_px": 9320286,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 5,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.918184,
+      "GG5": 0.081816
+    },
+    "mask_file": "slide006_core110_classimg_nonconvex.png"
+  },
+  "slide006_core113": {
+    "areas_px": {
+      "background": 11972686,
+      "GG4": 11620274
+    },
+    "cancer_area_px": 11620274,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core113_classimg_nonconvex.png"
+  },
+  "slide006_core114": {
+    "areas_px": {
+      "background": 10148091,
+      "GG4": 13444869
+    },
+    "cancer_area_px": 13444869,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core114_classimg_nonconvex.png"
+  },
+  "slide006_core115": {
+    "areas_px": {
+      "background": 8906828,
+      "GG4": 14686132
+    },
+    "cancer_area_px": 14686132,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core115_classimg_nonconvex.png"
+  },
+  "slide006_core116": {
+    "areas_px": {
+      "background": 8988510,
+      "GG4": 14604450
+    },
+    "cancer_area_px": 14604450,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core116_classimg_nonconvex.png"
+  },
+  "slide006_core120": {
+    "areas_px": {
+      "background": 11021038,
+      "GG3": 4450994
+    },
+    "cancer_area_px": 4450994,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide006_core120_classimg_nonconvex.png"
+  },
+  "slide006_core125": {
+    "areas_px": {
+      "background": 17860659,
+      "GG3": 2846893,
+      "GG4": 8128288
+    },
+    "cancer_area_px": 10975181,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.259394,
+      "GG4": 0.740606
+    },
+    "mask_file": "slide006_core125_classimg_nonconvex.png"
+  },
+  "slide006_core129": {
+    "areas_px": {
+      "background": 17243583,
+      "GG4": 11592257
+    },
+    "cancer_area_px": 11592257,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core129_classimg_nonconvex.png"
+  },
+  "slide006_core130": {
+    "areas_px": {
+      "background": 14972402,
+      "GG4": 9240931,
+      "NC": 2001067
+    },
+    "cancer_area_px": 9240931,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core130_classimg_nonconvex.png"
+  },
+  "slide006_core136": {
+    "areas_px": {
+      "background": 12133238,
+      "GG4": 14081162
+    },
+    "cancer_area_px": 14081162,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core136_classimg_nonconvex.png"
+  },
+  "slide006_core141": {
+    "areas_px": {
+      "background": 14175628,
+      "GG4": 9417332
+    },
+    "cancer_area_px": 9417332,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide006_core141_classimg_nonconvex.png"
+  },
+  "slide006_core142": {
+    "areas_px": {
+      "background": 15318024,
+      "GG4": 5749107,
+      "GG5": 1204365
+    },
+    "cancer_area_px": 6953472,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 5,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.826797,
+      "GG5": 0.173203
+    },
+    "mask_file": "slide006_core142_classimg_nonconvex.png"
+  },
+  "slide006_core155": {
+    "areas_px": {
+      "background": 13106601,
+      "GG3": 9496786,
+      "NC": 989573
+    },
+    "cancer_area_px": 9496786,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide006_core155_classimg_nonconvex.png"
+  },
+  "slide007_core002": {
+    "areas_px": {
+      "background": 12014675,
+      "GG4": 14199725
+    },
+    "cancer_area_px": 14199725,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide007_core002_classimg_nonconvex.png"
+  },
+  "slide007_core005": {
+    "areas_px": {
+      "background": 10705675,
+      "GG5": 15508725
+    },
+    "cancer_area_px": 15508725,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 5,
+    "gleason_score": 10,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG5": 1.0
+    },
+    "mask_file": "slide007_core005_classimg_nonconvex.png"
+  },
+  "slide007_core006": {
+    "areas_px": {
+      "background": 12097805,
+      "GG4": 2403324,
+      "GG5": 11713271
+    },
+    "cancer_area_px": 14116595,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 4,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.170248,
+      "GG5": 0.829752
+    },
+    "mask_file": "slide007_core006_classimg_nonconvex.png"
+  },
+  "slide007_core008": {
+    "areas_px": {
+      "background": 11131998,
+      "GG3": 15082402
+    },
+    "cancer_area_px": 15082402,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide007_core008_classimg_nonconvex.png"
+  },
+  "slide007_core013": {
+    "areas_px": {
+      "background": 11162706,
+      "GG4": 15051694
+    },
+    "cancer_area_px": 15051694,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide007_core013_classimg_nonconvex.png"
+  },
+  "slide007_core014": {
+    "areas_px": {
+      "background": 12860597,
+      "GG4": 11418558,
+      "GG5": 1935245
+    },
+    "cancer_area_px": 13353803,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 5,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.855079,
+      "GG5": 0.144921
+    },
+    "mask_file": "slide007_core014_classimg_nonconvex.png"
+  },
+  "slide007_core015": {
+    "areas_px": {
+      "background": 18241771,
+      "GG4": 7972629
+    },
+    "cancer_area_px": 7972629,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide007_core015_classimg_nonconvex.png"
+  },
+  "slide007_core016": {
+    "areas_px": {
+      "background": 19403096,
+      "GG4": 760674,
+      "GG5": 3429190
+    },
+    "cancer_area_px": 4189864,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 4,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.181551,
+      "GG5": 0.818449
+    },
+    "mask_file": "slide007_core016_classimg_nonconvex.png"
+  },
+  "slide007_core024": {
+    "areas_px": {
+      "background": 18485759,
+      "GG4": 7728641
+    },
+    "cancer_area_px": 7728641,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide007_core024_classimg_nonconvex.png"
+  },
+  "slide007_core028": {
+    "areas_px": {
+      "background": 19252616,
+      "GG4": 4340344
+    },
+    "cancer_area_px": 4340344,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide007_core028_classimg_nonconvex.png"
+  },
+  "slide007_core031": {
+    "areas_px": {
+      "background": 11911094,
+      "GG3": 14303306
+    },
+    "cancer_area_px": 14303306,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide007_core031_classimg_nonconvex.png"
+  },
+  "slide007_core033": {
+    "areas_px": {
+      "background": 11995509,
+      "GG3": 3971163,
+      "GG4": 10247728
+    },
+    "cancer_area_px": 14218891,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.279288,
+      "GG4": 0.720712
+    },
+    "mask_file": "slide007_core033_classimg_nonconvex.png"
+  },
+  "slide007_core038": {
+    "areas_px": {
+      "background": 19034290,
+      "GG3": 9801550
+    },
+    "cancer_area_px": 9801550,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide007_core038_classimg_nonconvex.png"
+  },
+  "slide007_core043": {
+    "areas_px": {
+      "background": 13551303,
+      "GG4": 4110558,
+      "GG5": 8552539
+    },
+    "cancer_area_px": 12663097,
+    "is_benign": false,
+    "primary_pattern": 5,
+    "secondary_pattern": 4,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.324609,
+      "GG5": 0.675391
+    },
+    "mask_file": "slide007_core043_classimg_nonconvex.png"
+  },
+  "slide007_core044": {
+    "areas_px": {
+      "background": 11187976,
+      "GG4": 12426425,
+      "GG5": 2249592,
+      "NC": 350407
+    },
+    "cancer_area_px": 14676017,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 5,
+    "gleason_score": 9,
+    "isup_grade": 5,
+    "pattern_ratios": {
+      "GG4": 0.846716,
+      "GG5": 0.153284
+    },
+    "mask_file": "slide007_core044_classimg_nonconvex.png"
+  },
+  "slide007_core046": {
+    "areas_px": {
+      "background": 13645394,
+      "GG3": 12569006
+    },
+    "cancer_area_px": 12569006,
+    "is_benign": false,
+    "primary_pattern": 3,
+    "secondary_pattern": 3,
+    "gleason_score": 6,
+    "isup_grade": 1,
+    "pattern_ratios": {
+      "GG3": 1.0
+    },
+    "mask_file": "slide007_core046_classimg_nonconvex.png"
+  },
+  "slide007_core047": {
+    "areas_px": {
+      "background": 17327943,
+      "GG3": 3457041,
+      "GG4": 5429416
+    },
+    "cancer_area_px": 8886457,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.389024,
+      "GG4": 0.610976
+    },
+    "mask_file": "slide007_core047_classimg_nonconvex.png"
+  },
+  "slide007_core048": {
+    "areas_px": {
+      "background": 13559791,
+      "GG3": 3699748,
+      "GG4": 6333421
+    },
+    "cancer_area_px": 10033169,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.368752,
+      "GG4": 0.631248
+    },
+    "mask_file": "slide007_core048_classimg_nonconvex.png"
+  },
+  "slide007_core055": {
+    "areas_px": {
+      "background": 10887304,
+      "NC": 15327096
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide007_core055_classimg_nonconvex.png"
+  },
+  "slide007_core056": {
+    "areas_px": {
+      "background": 8823398,
+      "NC": 14769562
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide007_core056_classimg_nonconvex.png"
+  },
+  "slide007_core057": {
+    "areas_px": {
+      "background": 11348441,
+      "NC": 17487399
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide007_core057_classimg_nonconvex.png"
+  },
+  "slide007_core070": {
+    "areas_px": {
+      "background": 15980684,
+      "NC": 7612276
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide007_core070_classimg_nonconvex.png"
+  },
+  "slide007_core078": {
+    "areas_px": {
+      "background": 21233664
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide007_core078_classimg_nonconvex.png"
+  },
+  "slide007_core093": {
+    "areas_px": {
+      "background": 12140183,
+      "NC": 16695657
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide007_core093_classimg_nonconvex.png"
+  },
+  "slide007_core107": {
+    "areas_px": {
+      "background": 10293142,
+      "NC": 15921258
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide007_core107_classimg_nonconvex.png"
+  },
+  "slide007_core137": {
+    "areas_px": {
+      "background": 8366759,
+      "NC": 15226201
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide007_core137_classimg_nonconvex.png"
+  },
+  "slide007_core145": {
+    "areas_px": {
+      "background": 27454580,
+      "GG4": 1381260
+    },
+    "cancer_area_px": 1381260,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 4,
+    "gleason_score": 8,
+    "isup_grade": 4,
+    "pattern_ratios": {
+      "GG4": 1.0
+    },
+    "mask_file": "slide007_core145_classimg_nonconvex.png"
+  },
+  "slide007_core146": {
+    "areas_px": {
+      "background": 17282463,
+      "GG3": 4117376,
+      "GG4": 4814561
+    },
+    "cancer_area_px": 8931937,
+    "is_benign": false,
+    "primary_pattern": 4,
+    "secondary_pattern": 3,
+    "gleason_score": 7,
+    "isup_grade": 3,
+    "pattern_ratios": {
+      "GG3": 0.460972,
+      "GG4": 0.539028
+    },
+    "mask_file": "slide007_core146_classimg_nonconvex.png"
+  },
+  "slide007_core149": {
+    "areas_px": {
+      "background": 11551039,
+      "NC": 14663361
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide007_core149_classimg_nonconvex.png"
+  },
+  "slide007_core150": {
+    "areas_px": {
+      "background": 10738046,
+      "NC": 15476354
+    },
+    "cancer_area_px": 0,
+    "is_benign": true,
+    "primary_pattern": null,
+    "secondary_pattern": null,
+    "gleason_score": 0,
+    "isup_grade": 0,
+    "pattern_ratios": {},
+    "note": "无 GG3/4/5 标注，判为良性/非癌",
+    "mask_file": "slide007_core150_classimg_nonconvex.png"
+  }
+}
