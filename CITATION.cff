@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below and cite the SICAPv2 dataset."
+title: "Gleason Pattern Segmentation of Prostate Biopsy Whole-Slide Images: reproducible code"
+abstract: >-
+  Reproducible pipeline for pixel-level Gleason pattern segmentation (GG3/GG4/GG5,
+  benign) on SICAPv2 prostate biopsy cores, with core-level Gleason / ISUP grade
+  derivation under an explicit, shared rule set, and three-level evaluation
+  (pixel-level Dice/IoU, core-level grade agreement, ROC).
+type: software
+authors:
+  - name: "Linzihan"
+    affiliation: "Renji College, Wenzhou Medical University"
+license: MIT
+repository-code: "https://github.com/TONYUED/prostate-cad-release"
+url: "https://github.com/TONYUED/prostate-cad-release"
+keywords:
+  - prostate cancer
+  - Gleason grading
+  - semantic segmentation
+  - histopathology
+  - SICAPv2
+preferred-citation:
+  type: dataset
+  title: "SICAPv2 - Prostate Whole Slide Images with Gleason Grades Annotations"
+  authors:
+    - family-names: "Silva-Rodriguez"
+      given-names: "Julio"
+    - family-names: "Colomer"
+      given-names: "Adrian"
+    - family-names: "Sales"
+      given-names: "Maria A."
+    - family-names: "Molina"
+      given-names: "Rafael"
+    - family-names: "Naranjo"
+      given-names: "Valery"
+  year: 2020
+  url: "https://data.mendeley.com/datasets/9xxm58dvs3/1"

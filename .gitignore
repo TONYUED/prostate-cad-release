@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+prostate_env/
+tf_env/
+
+# ---- 数据与模型（仓库只放代码，数据按许可单独获取）----
+data/*
+!data/gold_standards.json          # 仅含统计数字与 case_id，不含任何图像，便于核对
+outputs/
+results/
+runs/
+**/*.pt
+**/*.pth
+**/*.onnx
+**/*.engine
+!configs/*.yaml
+
+# ---- 图像（SICAPv2 派生数据不得再分发）----
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.svs
+*.ndpi
+*.bmp
+
+# ---- 运行输出 ----
+*.log
+*.cache
+tensorboard/
+wandb/
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE ----
+.idea/
+.vscode/

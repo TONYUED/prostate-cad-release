@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 Prostate Gleason Segmentation release
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------
+NON-CLINICAL USE DISCLAIMER / 非临床使用声明
+--------------------------------------------------------------------------
+This software is a research prototype for academic use only. It is NOT a
+medical device, has NOT been validated for clinical use, and must NOT be used
+to diagnose, screen, stage, or treat any patient or to inform any clinical
+decision. All outputs (segmentation masks, Gleason scores, ISUP grades, ROC
+statistics) are experimental results produced on a public research dataset.
+
+本软件为学术研究原型，不是医疗器械，未通过任何临床验证，不得用于疾病的
+诊断、筛查、分期、治疗或任何临床决策。所有输出（分割掩码、Gleason 评分、
+ISUP 分级、ROC 统计）均为公开研究数据集上的实验结果。
+
+--------------------------------------------------------------------------
+THIRD-PARTY DATA / 第三方数据
+--------------------------------------------------------------------------
+This repository contains NO image data. Experiments rely on SICAPv2
+(Silva-Rodriguez et al., Mendeley Data, https://data.mendeley.com/datasets/
+9xxm58dvs3/1), which must be obtained separately under its own license terms.
+See docs/DATA.md for acquisition instructions and citation requirements.
+
+本仓库不包含任何图像数据。实验依赖 SICAPv2 数据集，需按其自身许可单独获取。
+获取方式与引用要求见 docs/DATA.md。

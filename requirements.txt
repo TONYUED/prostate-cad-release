@@ -1,0 +1,16 @@
+# 核心依赖（训练/推理/评估全链路）
+numpy>=1.24
+opencv-python>=4.8
+torch>=2.0
+matplotlib>=3.7
+
+# 数据准备与报告
+PyYAML>=6.0
+
+# 可选：仅在运行 legacy/ 早期原型时需要
+# tensorflow==2.15.0
+# ultralytics>=8.0.0
+# scikit-learn>=1.3
+# pandas>=2.0
+# seaborn>=0.12
+# ttkbootstrap>=1.10

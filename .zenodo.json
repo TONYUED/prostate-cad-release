@@ -1,0 +1,28 @@
+{
+  "title": "Gleason Pattern Segmentation of Prostate Biopsy Whole-Slide Images: reproducible code",
+  "description": "Reproducible pipeline for pixel-level Gleason pattern segmentation on SICAPv2, including ground-truth derivation from official masks, U-Net training, sliding-window inference, and three-level evaluation. Code only; no image data included.",
+  "license": "mit",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "prostate cancer",
+    "Gleason grading",
+    "semantic segmentation",
+    "histopathology",
+    "SICAPv2"
+  ],
+  "creators": [
+    {
+      "name": "Linzihan",
+      "affiliation": "Renji College, Wenzhou Medical University"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://data.mendeley.com/datasets/9xxm58dvs3/1",
+      "relation": "isDerivedFrom",
+      "scheme": "url",
+      "resource_type": "dataset"
+    }
+  ]
+}
